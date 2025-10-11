@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Canvas #2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Luis Angel — Canvas #2</h1>
+    <p class="date">10/10/2025</p>
+  </header>
+  <main>
+    <canvas id="clock"></canvas>
+    <p class="reflection">
+      I found this assignment moderately challenging because refactoring the clock code into separate files and making it responsive deepened my understanding of the canvas API.
+    </p>
+    <p class="tutorial">
+      This clock leverages techniques from the W3Schools Canvas Drawing tutorial, which demonstrates accessing the 2D context and drawing shapes with methods like fillRect().
+    </p>
+    <p class="link">
+      Tutorial reference: 
+      <a href="https://www.w3schools.com/graphics/canvas_drawing.asp" target="_blank">
+        W3Schools Canvas Drawing
+      </a>
+    </p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
